@@ -1,0 +1,51 @@
+1. Jako obserwator chciałbym :
+a) aby program informował o zablokowaniu się ruchu we wszystkich kierunkach na skrzyżowaniu (możliwe jest wczytanie mapy doprowadzającej do takiej sytuacji) (may have)
+b) widzieć jak poruszają się pociągi (must have)
+c) aby można było sprawdzić prędkość poszczególnych pociągów (should have)
+d) mieć możliwość zatrzymania symulacji w dowolnej chwili (must have)
+e) mieć możliwość przyspieszania i zwalniania symulacji (should have)
+f) sprawdzać w danej chwili właściwości pociągów (cel podróży i punkty przez) i zadanej trasy (should have)
+g) aby stacje były reprezentowane na mapie w postaci graficznej (must have)
+h) aby pociąg zwalniał podczas dojeżdżania do stacji i do skrzyżowań (should have)
+i) aby pociąg stopniowo zwiększał swoją prędkość ruszając z miejsca (should have)
+j) aby przy każdym skrzyżowaniu można było sprawdzić stan wszystkich sygnalizacji (needs to have)
+k) aby program miał możliwość zapisania do pliku przebiegu symulacji (must have)
+l) pociągi powinny być sterowane w sposób zapobiegający kolizjom (must have)
+m) aby symulacja była przedstawiona w czytelnej, ładnej oprawie graficznej (should have)
+n) aby była możliwość odtworzenia symulacji na podstawie zapisanego pliku (must have)
+
+
+2. Jako projektant torów chciałbym :
+a) mieć możliwość ustawiania stacji w dowolnym punkcie mapy (must have)
+b) mieć możliwość łączenia stacji torami (jednokierunkowymi lub dwukierunkowymi) (must have)
+c) mieć możliwość kreowania otoczenia przez bardzo uproszczone elementy, takie jak przeszkody na mapie (may have)
+d) mieć możliwość ustalenia dowolnej odległości między stacjami (niezależnie od reprezentacji graficznej trasy) (must have)
+e) projektować skrzyżowania torów (must have)
+f) ustawiać priotytety przejazdów pociągów na poszczególych skrzyżowaniach (should have)
+g) mieć możliwość łaczenia wielu odcinków torów i wiele skrzyżowań w segment. Na jednym segmencie nie może znajdować się więcej niż jeden pociąg (nice to have)
+h) aby plik opisujący mapę miał składnię umożliwiającą względnie nieskomplikowaną edycję mapy (must have)
+i) aby z programem dostarczony był graficzny edytor mapy (may have)
+j) tworzyć dowolnie dużą mapę (nice to have)
+
+
+3. Jako logistyk chciałbym
+a) znać odległości pomiędzy poszczególnymi stacjami (must have)
+b) edytując plik wejściowy ustawiać ilość wagonów przed symulacją (should have)
+c) ustawiać maksymalne prędkości poszczególnych pociągów przed symulacją (przez plik wejściowy) (must have)
+d) aby po dojechaniu pociągu do stacji docelowej generowany był raport zawierający między innymi pokonaną odległość i czas przejazdu (nice to have)
+e) aby pociąg dostosowywał prędkość do wolniejszego pociągu jadącego przed nim (must have)
+f) mieć możliwość zadania czasu minimalnego, przez jaki pociąg powinien stać na stacji (nice to have)
+g) móc przypisać pociągowi trasę specyfikując punkty (stacje) przez które ma on przejechać (must have)
+h) aby pociąg miał możliwość wyznaczenia właściwej dla siebie trasy na podstawie danych stacji: początkowej i końcowej, a także dowolnej ilości punktów (stacji) "przez" (must have)
+
+
+Plan sprintów:
+
+Pierwszy sprint:
+1b,1d,1g,1k,2a,2b,2e,2f,2h,3h
+
+Drugi sprint:
+1a,1e,1j,1l,1m,1n,2c,2d,3a.3g
+
+Trzeci sprint:
+1c,1f,1h,1i,2i,2j,3b,3c,3d,3e,3f

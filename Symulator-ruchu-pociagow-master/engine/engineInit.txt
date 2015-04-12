@@ -1,0 +1,8 @@
+1) Dodawanie skrzyżowań
+2) Dodawanie torów
+3) Dodawanie pociągów
+
+init()
+	4) Wykrywanie sąsiadów (skrzyżowania)
+	5) Ustalanie trasy pociągów
+	6) Przesunięcie pociągów

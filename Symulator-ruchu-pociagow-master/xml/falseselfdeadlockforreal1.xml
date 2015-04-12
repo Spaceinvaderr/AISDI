@@ -1,0 +1,45 @@
+<engine>
+ <tile yPos="25" xPos="14" tileNo="5"/>
+ <tile yPos="24" xPos="14" tileNo="1"/>
+ <tile yPos="24" xPos="14" tileNo="10"/>
+ <tile yPos="23" xPos="14" tileNo="23"/>
+ <tile yPos="25" xPos="15" tileNo="4"/>
+ <tile yPos="24" xPos="15" tileNo="3"/>
+ <tile yPos="23" xPos="15" tileNo="20"/>
+ <tile yPos="25" xPos="16" tileNo="12"/>
+ <tile yPos="24" xPos="16" tileNo="8"/>
+ <tile yPos="23" xPos="16" tileNo="20"/>
+ <tile yPos="23" xPos="16" tileNo="6"/>
+ <tile yPos="22" xPos="16" tileNo="9"/>
+ <tile yPos="25" xPos="17" tileNo="5"/>
+ <tile yPos="24" xPos="17" tileNo="1"/>
+ <tile yPos="23" xPos="17" tileNo="3"/>
+ <tile yPos="23" xPos="17" tileNo="11"/>
+ <tile yPos="22" xPos="17" tileNo="3"/>
+ <tile yPos="25" xPos="18" tileNo="4"/>
+ <tile yPos="23" xPos="18" tileNo="15"/>
+ <tile yPos="22" xPos="18" tileNo="3"/>
+ <tile yPos="27" xPos="19" tileNo="5"/>
+ <tile yPos="26" xPos="19" tileNo="13"/>
+ <tile yPos="25" xPos="19" tileNo="1"/>
+ <tile yPos="25" xPos="19" tileNo="4"/>
+ <tile yPos="24" xPos="19" tileNo="1"/>
+ <tile yPos="23" xPos="19" tileNo="3"/>
+ <tile yPos="23" xPos="19" tileNo="9"/>
+ <tile yPos="22" xPos="19" tileNo="3"/>
+ <tile yPos="27" xPos="20" tileNo="4"/>
+ <tile yPos="25" xPos="20" tileNo="12"/>
+ <tile yPos="24" xPos="20" tileNo="2"/>
+ <tile yPos="23" xPos="20" tileNo="8"/>
+ <tile yPos="22" xPos="20" tileNo="3"/>
+ <tile yPos="27" xPos="21" tileNo="12"/>
+ <tile yPos="26" xPos="21" tileNo="2"/>
+ <tile yPos="25" xPos="21" tileNo="2"/>
+ <tile yPos="24" xPos="21" tileNo="2"/>
+ <tile yPos="23" xPos="21" tileNo="2"/>
+ <tile yPos="22" xPos="21" tileNo="8"/>
+ <train loop="1" length="4" maxspeed="30">
+  <station x="19" y="26" time="5"/>
+  <station x="18" y="23" time="5"/>
+ </train>
+</engine>

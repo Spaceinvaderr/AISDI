@@ -1,0 +1,23 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# QT files created during compilation
+*moc_*
+*qrc_*
+
+# main executable
+graphics/graphics
+
+# ultimate makefile
+graphics/Makefile

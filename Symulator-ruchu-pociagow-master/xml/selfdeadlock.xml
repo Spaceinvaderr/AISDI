@@ -1,0 +1,29 @@
+<engine>
+ <tile yPos="8" xPos="2" tileNo="15"/>
+ <tile yPos="8" xPos="3" tileNo="3"/>
+ <tile yPos="8" xPos="4" tileNo="3"/>
+ <tile yPos="8" xPos="5" tileNo="3"/>
+ <tile yPos="8" xPos="6" tileNo="3"/>
+ <tile yPos="8" xPos="7" tileNo="3"/>
+ <tile yPos="8" xPos="8" tileNo="3"/>
+ <tile yPos="8" xPos="9" tileNo="3"/>
+ <tile yPos="8" xPos="10" tileNo="3"/>
+ <tile yPos="9" xPos="11" tileNo="5"/>
+ <tile yPos="8" xPos="11" tileNo="1"/>
+ <tile yPos="8" xPos="11" tileNo="3"/>
+ <tile yPos="7" xPos="11" tileNo="1"/>
+ <tile yPos="6" xPos="11" tileNo="1"/>
+ <tile yPos="5" xPos="11" tileNo="1"/>
+ <tile yPos="4" xPos="11" tileNo="1"/>
+ <tile yPos="3" xPos="11" tileNo="1"/>
+ <tile yPos="2" xPos="11" tileNo="1"/>
+ <tile yPos="1" xPos="11" tileNo="13"/>
+ <tile yPos="9" xPos="12" tileNo="4"/>
+ <tile yPos="8" xPos="12" tileNo="3"/>
+ <tile yPos="9" xPos="13" tileNo="12"/>
+ <tile yPos="8" xPos="13" tileNo="8"/>
+ <train length="15" maxspeed="2">
+  <station x="11" y="1"/>
+  <station x="2" y="8"/>
+ </train>
+</engine>

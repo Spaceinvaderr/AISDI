@@ -1,0 +1,14 @@
+Mój wkład.
+W tym projekcie zajmowałem się głownie silnikiem. Zaprojektowałem interfejs
+silnika i napisałem klasy pozwalające na animację pociągu. Miałem również swój
+niewielki wkład w wyświetlaniu obrazu w opengl.
+
+Klasa Train reprezentuje pociąg. Posiada ona parametry takie jak maksymalna
+prędkość, aktualna prędkość, ilość wagonów , stacje docelowe i aktualną
+pozycję. Metoda update powoduje zapisanie do klasy TrainState nowego stanu
+pociągu. Wykorzystuje ona funkcję move która przyjmuje za parametr odległość i
+zwraca informację czy udało się przesunąć pociąg. Modelowy pociąg składa się z
+dwóch części niewidocznej strefy hamowania (zależnej od prędkości) i z
+rzeczywistej części pociągu (wyświetlanej w postaci wagonów). Taka
+reprezentacja pociągu gwarantuje możliwość bezpiecznego hamowania i zapobiega
+kolizjom.

@@ -1,0 +1,65 @@
+\documentclass{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{mathtools}
+\usepackage[utf8]{inputenc}
+\usepackage{polski}
+\usepackage[T1]{fontenc}
+\begin{document}
+\title{User Stories - grupa 1}
+\maketitle
+\begin{enumerate}
+\item Jako obserwator chciałbym :
+\begin{enumerate}
+\item aby program informował o zablokowaniu się ruchu we wszystkich kierunkach na skrzyżowaniu (możliwe jest wczytanie mapy doprowadzającej do takiej sytuacji) (may have) (**)
+\item widzieć jak poruszają się pociągi (must have) (*)
+\item aby można było sprawdzić prędkość poszczególnych pociągów (should have) (***)
+\item mieć możliwość zatrzymania symulacji w dowolnej chwili (must have) (*)
+\item mieć możliwość przyspieszania i zwalniania symulacji (should have) (**)
+\item sprawdzać w danej chwili właściwości pociągów (cel podróży i punkty przez) i zadanej trasy (should have) (***)
+\item aby stacje były reprezentowane na mapie w postaci graficznej (must have) (*)
+\item aby pociąg zwalniał podczas dojeżdżania do stacji i do skrzyżowań (should have) (***)
+\item aby pociąg stopniowo zwiększał swoją prędkość ruszając z miejsca (should have) (***)
+\item aby przy każdym skrzyżowaniu można było sprawdzić stan wszystkich sygnalizacji (needs to have) (**)
+\item aby program miał możliwość zapisania do pliku przebiegu symulacji (must have) (*)
+\item pociągi powinny być sterowane w sposób zapobiegający kolizjom (must have) (**)
+\item aby symulacja była przedstawiona w czytelnej, ładnej oprawie graficznej (should have) (**)
+\item aby była możliwość odtworzenia symulacji na podstawie zapisanego pliku (must have) (**)
+\end {enumerate}
+\item Jako projektant torów chciałbym :
+\begin{enumerate}
+\item mieć możliwość ustawiania stacji w dowolnym punkcie mapy (must have) (*)
+\item mieć możliwość łączenia stacji torami (jednokierunkowymi lub dwukierunkowymi) (must have) (*)
+\item mieć możliwość kreowania otoczenia przez bardzo uproszczone elementy, takie jak przeszkody na mapie (may have) (**)
+\item mieć możliwość ustalenia dowolnej odległości między stacjami (niezależnie od reprezentacji graficznej trasy) (must have) (**)
+\item projektować skrzyżowania torów (must have) (*)
+\item ustawiać priotytety przejazdów pociągów na poszczególych skrzyżowaniach (should have) (*)
+\item mieć możliwość łaczenia wielu odcinków torów i wiele skrzyżowań w segment. Na jednym segmencie nie może znajdować się więcej niż jeden pociąg (nice to have) (**)
+\item aby plik opisujący mapę miał składnię umożliwiającą względnie nieskomplikowaną edycję mapy (must have) (*)
+\item aby z programem dostarczony był graficzny edytor mapy (may have) (***)
+\item tworzyć dowolnie dużą mapę (nice to have) (***)
+\end {enumerate}
+\item Jako logistyk chciałbym
+\begin{enumerate}
+\item znać odległości pomiędzy poszczególnymi stacjami (must have) (**)
+\item edytując plik wejściowy ustawiać ilość wagonów przed symulacją (should have) (***)
+\item ustawiać maksymalne prędkości poszczególnych pociągów przed symulacją (przez plik wejściowy) (must have) (***)
+\item aby po dojechaniu pociągu do stacji docelowej generowany był raport zawierający między innymi pokonaną odległość i czas przejazdu (nice to have) (***)
+\item aby pociąg dostosowywał prędkość do wolniejszego pociągu jadącego przed nim (must have) (***)
+\item mieć możliwość zadania czasu minimalnego, przez jaki pociąg powinien stać na stacji (nice to have) (***)
+\item móc przypisać pociągowi trasę specyfikując punkty (stacje) przez które ma on przejechać (must have) (**)
+\item aby pociąg miał możliwość wyznaczenia właściwej dla siebie trasy na podstawie danych stacji: początkowej i końcowej, a także dowolnej ilości punktów (stacji) "przez" (must have) (*)
+\end {enumerate}
+Plan sprintów:
+
+Pierwszy sprint:
+1b,1d,1g,1k,2a,2b,2e,2f,2h,3h
+
+Drugi sprint:
+1a,1e,1j,1l,1m,1n,2c,2d,3a.3g
+
+Trzeci sprint:
+1c,1f,1h,1i,2i,2j,3b,3c,3d,3e,3f
+\end{enumerate}
+\end{document}

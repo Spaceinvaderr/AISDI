@@ -1,0 +1,20 @@
+<engine>
+ <tile yPos="7" xPos="8" tileNo="5"/>
+ <tile yPos="6" xPos="8" tileNo="9"/>
+ <tile yPos="7" xPos="9" tileNo="12"/>
+ <tile yPos="6" xPos="9" tileNo="6"/>
+ <tile yPos="6" xPos="9" tileNo="7"/>
+ <tile yPos="5" xPos="9" tileNo="1"/>
+ <tile yPos="4" xPos="9" tileNo="1"/>
+ <tile yPos="3" xPos="9" tileNo="1"/>
+ <tile yPos="2" xPos="9" tileNo="13"/>
+ <tile yPos="6" xPos="10" tileNo="4"/>
+ <tile yPos="6" xPos="11" tileNo="4"/>
+ <tile yPos="6" xPos="12" tileNo="4"/>
+ <tile yPos="6" xPos="13" tileNo="16"/>
+ <tile yPos="6" xPos="16" tileNo="37"/>
+ <train loop="0" length="6" maxspeed="10">
+  <station x="9" y="2" time="0"/>
+  <station x="13" y="6" time="0"/>
+ </train>
+</engine>

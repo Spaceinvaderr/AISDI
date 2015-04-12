@@ -1,0 +1,86 @@
+\documentclass[a4paper, 11pt]{beamer}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{mathtools}
+\usepackage[utf8]{inputenc}
+\usepackage{polski}
+%\usepackage{antiqua}
+\usepackage{color}
+\usepackage[T1]{fontenc}
+\usetheme{Berkeley} %motyw
+%Deklaracja kolorów
+\begin{document}
+%
+\title{Podsumowanie 1 sprintu - symulacja ruchu pociagów}
+\author{Prezentację tworzył Adam Mościcki}
+\institute{we współpracy z Michał Pluta, Jan Wiśniewski, Edwiń Jarośinski, Paweł Kowalczyk , Margarita Chirillova}
+%
+\begin{frame} %ramka, nie slajd!!!
+\titlepage %strona tytulowa
+\end{frame}
+
+\begin{frame}
+\tableofcontents
+\end{frame}
+\section{Sukcesy i porażki realizacji sprintu 1}
+\subsection{Zarys dokonań}
+\begin{itemize}
+\frametitle{Zarys dokonań}
+\begin{frame}
+\item symulacja wizualizowana prostymi elementami graficznymi 
+\item punkty (sprzyżowania, stacje) połączone liniami prostymi (torami) oraz linie innego koloru (pociągi)
+\item pociągi nie są podzielone na wagony, ale mogą przyjmować dowolną długość daną przez użytkownika 
+\item część graficzna aplikacji została wykonana przy pomocy QT OpenGL 
+\item mapę opisuje plik XML 
+\item pociągi jadą wyznaczoną trasą zatrzymując się póki co tylko na skrzyżowaniach w przypadku kiedy segment na który chcą wjechać jest zajęty przez inny pociąg - trasa jest wyznaczana algorytmem Dijkstry 
+\item mapa może dowolnie duża, jest możliwość przesuwania ekranu, jeśli mapa nie mieści się na jednym ekranie
+\end{frame}
+\end{itemize}
+\subsection{Obserwator}
+\begin{enumerate}
+\begin{frame}
+\frametitle{Obserwator}
+\item Jako obserwator chciałbym :
+\begin{itemize}
+\item {\color{green}b) widzieć jak poruszają się pociągi (must have)
+\item d) mieć możliwość zatrzymania symulacji w dowolnej chwili (must have)
+\item g) aby stacje były reprezentowane na mapie w postaci graficznej (must have)
+\item k) aby program miał możliwość zapisania do pliku przebiegu symulacji (must have)}
+\end{itemize}
+\end{frame}
+\subsection{Projektant}
+\begin{frame}
+\frametitle{Projektant}
+\item Jako projektant torów chciałbym :
+\begin{itemize}
+\item {\color{green}a) mieć możliwość ustawiania stacji w dowolnym punkcie mapy (must have)
+\item b) mieć możliwość łączenia stacji torami (jednokierunkowymi lub dwukierunkowymi) (must have)
+\item e) projektować skrzyżowania torów (must have)}
+\item {\color{orange}f) ustawiać priotytety przejazdów pociągów na poszczególych skrzyżowaniach (should have)}
+\item {\color{green}g) mieć możliwość łaczenia wielu odcinków torów i wiele skrzyżowań w segment. Na jednym segmencie nie może znajdować się więcej niż jeden pociąg (nice to have)
+\item h) aby plik opisujący mapę miał składnię umożliwiającą względnie nieskomplikowaną edycję mapy (must have)}
+\end{itemize}
+\end{frame}
+\subsection{Logistyk}
+\begin{frame}
+\frametitle{Logistyk}
+\item Jako logistyk chciałbym
+\begin{itemize}
+\item {\color{orange}b) edytując plik wejściowy ustawiać ilość wagonów przed symulacją (should have)}
+\item {\color{green}h) aby pociąg miał możliwość wyznaczenia właściwej dla siebie trasy na podstawie danych stacji: początkowej i końcowej, a także dowolnej ilości punktów (stacji) "przez" (must have)}
+\end{itemize}
+\end{frame}
+\end{enumerate}
+\section{Bonusy}
+\begin{frame}
+Rzeczy zrealizowane ponadwymiarowo:
+\begin{itemize}
+\item przyspieszanie i zwolnianie symulacji
+\item możliwość ustalenia dowolnej odległości między stacjami niezaleznie od reprezentacji graficznej
+\item możliwość przypisać pociągowi trasę specyfikując stacje przez które ma przejechać
+\item yworzyć dowolnie dużą mapę, to chyba mamy
+\end{itemize}
+\end{frame}
+\end{document}
+
+

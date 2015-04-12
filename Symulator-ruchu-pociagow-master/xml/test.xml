@@ -1,0 +1,81 @@
+<engine>  
+	<junctions>
+		<junction id="0"  xPos="100"  yPos="100" ></junction>
+		<junction id="1"  xPos="500"  yPos="100" ></junction>	
+		<junction id="2"  xPos="500"  yPos="500" ></junction>
+		<junction id="3"  xPos="100"  yPos="500" ></junction>	
+		<junction id="4"  xPos="700"  yPos="300" ></junction>	
+		<junction id="4"  xPos="250"  yPos="500" ></junction>	
+		<junction id="4"  xPos="250"  yPos="600" ></junction>	
+		<junction id="4"  xPos="350"  yPos="500" ></junction>	
+		<junction id="4"  xPos="350"  yPos="600" ></junction>	
+	</junctions>
+	<tracks>
+		<segment id="0">
+			<track	id="0" xStart="100"  yStart="100"  xEnd="500" yEnd="100" length="400"		></track>
+			<track	id="1" xStart="500"  yStart="100"  xEnd="500" yEnd="500" length="400"		></track>
+			<track	id="4" xStart="500"  yStart="500"  xEnd="350" yEnd="500" length="150"		></track>
+			<track	id="4" xStart="250"  yStart="500"  xEnd="100" yEnd="500" length="150"		></track>
+			<track	id="5" xStart="100"  yStart="500"  xEnd="100" yEnd="100" length="400"		></track>	
+		</segment>
+		<segment id="1">
+			<track	id="0" xStart="350"  yStart="500"  xEnd="250" yEnd="500" length="100"		></track>
+			<!--<track	id="0" xStart="250"  yStart="500"  xEnd="350" yEnd="500" length="100"		></track> -->
+		</segment>
+		<segment id="1">
+			<track	id="0" xStart="250"  yStart="500"  xEnd="250" yEnd="600" length="100"		></track>
+			<track	id="0" xStart="250"  yStart="600"  xEnd="350" yEnd="600" length="100"		></track>
+			<track	id="0" xStart="350"  yStart="600"  xEnd="350" yEnd="500" length="100"		></track>
+		</segment>
+		<segment id="1">
+			<track	id="2" xStart="700"  yStart="300"  xEnd="500" yEnd="100" length="282"		></track>
+		</segment>
+		<segment id="1">
+			<track	id="3" xStart="500"  yStart="500"  xEnd="700" yEnd="300" length="282"		></track>
+		</segment>
+	</tracks>
+	<trains>
+		<train	id="0" length="250" maxspeed="10" 	>
+			<station	id="0" x="700" y="300"				></station>
+			<station	id="1" x="100" y="100"				></station>
+			<station	id="2" x="100" y="500"				></station>
+			<station	id="3" x="700" y="300"				></station>
+			<station	id="4" x="100" y="100"				></station>
+			<station	id="5" x="100" y="500"				></station>
+			<station	id="6" x="700" y="300"				></station>
+		</train> 
+		<train	id="1" length="250" maxspeed="5" 	>
+			<station	id="1" x="100" y="500"				></station>
+			<station	id="2" x="100" y="100"				></station>
+			<station	id="6" x="700" y="300"				></station>
+			<station	id="3" x="100" y="500"				></station>
+			<station	id="4" x="100" y="100"				></station>
+			<station	id="5" x="100" y="500"				></station>
+			<station	id="0" x="100" y="100"				></station>
+		</train>
+		<train	id="1" length="150" maxspeed="5" 	>
+			<station	id="2" x="250" y="600"				></station>
+			<station	id="2" x="350" y="500"				></station>
+			<station	id="2" x="250" y="600"				></station>
+			<station	id="2" x="350" y="600"				></station>
+			<station	id="2" x="250" y="600"				></station>
+			<station	id="2" x="350" y="600"				></station>
+			<station	id="2" x="250" y="600"				></station>
+			<station	id="2" x="350" y="600"				></station>
+			<station	id="2" x="250" y="600"				></station>
+			<station	id="2" x="350" y="600"				></station>
+			<station	id="2" x="250" y="600"				></station>
+			<station	id="2" x="350" y="600"				></station>
+			<station	id="2" x="250" y="600"				></station>
+			<station	id="2" x="350" y="600"				></station>
+			<station	id="2" x="250" y="600"				></station>
+			<station	id="2" x="350" y="600"				></station>
+			<station	id="2" x="250" y="600"				></station>
+			<station	id="2" x="350" y="600"				></station>
+			<station	id="2" x="250" y="600"				></station>
+			<station	id="2" x="350" y="600"				></station>
+			<station	id="2" x="250" y="600"				></station>
+			<station	id="2" x="350" y="600"				></station>
+		</train>
+	</trains>
+</engine>

@@ -1,0 +1,48 @@
+Mapa kafli w postaci tekstowej musi być zawarta w znaczniku <tilemap>. Informacje w znaczniku są parsowane ściśle co do
+wcięć, więc nie robić gdzieś na początku enterów, czy tabów.
+Pozycja 0,0 będzie się znajdować oczywiście po lewej na dole.
+
+Kazdy kafel składa się z 9 ważnych znaków (ułożonych w pliku 3 na 3), oraz ramki, co razem daje kostkę 4x4.
+Ramka nie może być większa. W ramce mogą być dowolne znaki, co może służyć do komentarzy, czy oznaczeń pozycji.
+
+Droga z dołu do góry:
+ u |
+ u |
+ u |
+----
+
+W takim kaflu rysujemy drogę korzystając ze znaków do opisu drogi. Pozostałe znaki mogą być dowolne, ale rzecz jasna inne
+od wykorzystywanych przez parser. Format nie jest case-sensitive.
+
+Możliwe rysowanie dróg prostych, stacji, ozdóbek i zakrętów. (no i ich mieszanie).
+
+(Nakładanie dróg prostych jednokierunkowych nie wypali w tej chwili;p)
+
+Znaki opisu:
+u - up
+d - down
+l - left
+r - right
+
+b - both? bidirectional? w każdym razie tor biegnący w obie strony.
+
+s - station
+Ozdóbki:
+1 - drzewo ( musi być na środku)
+2 - kamień czy coś tam z następnym indeksem;d
+Resztę ozdóbek trzeba ręcznie wstawiać.
+
+Stacja na drodze: (litera s musi być na środku):
+   |
+bsb|
+   |
+----
+
+Aby utworzyć zakręt, trzeba postawić znak opisu w róg kafla wokół którego skręcamy. Jako znaku używamy dowolnego z dwóch
+znaków kierunku.
+
+Droga prosta ze skrętem w prawo:
+ b |       b |
+ b |       b |
+ br| albo  bu| Dwie możliwości bo jest to zakręt up->right. l lub d byłoby w drugą stronę, b w obie.
+----      ----

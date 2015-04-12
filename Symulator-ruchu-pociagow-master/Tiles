@@ -1,0 +1,80 @@
+0 - tło (trawa)
+
+Tory proste jednokierunkowe
+1 - straight up
+2 - straight down
+3 - straight left
+4 - straight right
+
+Zakręty jednokierunkowe (patrz logika zakrętów):
+5 - turn up->right
+6 - turn up->left
+7 - turn down->right
+8 - turn down->left
+9 - turn left->up
+10 - turn left->down
+11 - turn right->up
+12 - turn right->down
+
+Stacje jednokierunkowe:
+13 - station - straight up
+14 - station - straight down
+15 - station - straight left
+16 - station - straight right
+
+Stacje dwukierunkowe:
+17 - station - straight up/down
+18 - station - left/right
+
+Tory dwukierunkowe:
+19 - straight up/down
+20 - straight left/right
+
+Zakręty dwukierunkowe:
+21 - turn up->right / left->down
+22 - turn up->left / right->down
+23 - turn down->right / left->up
+24 - turn down->left / right->up
+
+Tory ukośne jednokierunkowe:
+25 - down right
+26 - down left
+27 - up right
+28 - up left
+29 - right down
+30 - right up
+31 - left down
+32 - left up
+
+Tory ukośne dwukierunkowe:
+33 - down right / right down
+34 - down left / left down
+35 - up right / right up
+36 - up left / left up
+
+Elementy dodatkowe:
+37 - drzewo
+38 - kamień
+//tu jeszcze można coś dodać :)
+
+Logika zakrętów:
+
+turn up->right : początkowo pociąg jedzie w górę, po zakręcie jedzie w prawo
+więc jest to taki zakręt:
+     ______>>
+    /
+   |
+   |
+   ^
+   ^
+podobnie jest z pozostałymi zakrętami
+
+Logika do torów ukośnych:
+tor down right: tor zaczyna się w dolnej części kafelka, a kończy w prawej:
+_______
+|      |
+|      |
+|     /|
+|    / |
+|   /  |
+-------

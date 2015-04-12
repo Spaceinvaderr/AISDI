@@ -1,0 +1,89 @@
+\documentclass[a4paper, 11pt]{beamer}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{mathtools}
+\usepackage[utf8]{inputenc}
+\usepackage{polski}
+%\usepackage{antiqua}
+\usepackage{color}
+\usepackage[T1]{fontenc}
+\usetheme{Berkeley} %motyw
+%Deklaracja kolorów
+\begin{document}
+%
+\title{Podsumowanie 2 sprintu - symulacja ruchu pociagów}
+\author{Prezentację tworzył Adam Mościcki}
+\institute{we współpracy z Michał Pluta, Jan Wiśniewski, Edwin Jarosiński, Paweł Kowalczyk , Margarita Chirillova}
+%
+\begin{frame} %ramka, nie slajd!!!
+\titlepage %strona tytulowa
+\end{frame}
+
+\begin{frame}
+\tableofcontents
+\end{frame}
+\section{Sukcesy i porażki realizacji sprintu 2}
+\subsection{Zarys dokonań}
+\begin{itemize}
+\begin{frame}
+\frametitle{Zarys dokonań}
+\item symulacja wizualizowana w dużo lepszy sposób niż w sprincie 1
+\item kafelki z obiektami odzwierciedlają rzeczywistość
+\item pociągi sa kwantyzowane wagonami oraz mogą przyjmować dowolną długość daną przez użytkownika 
+\item część graficzna aplikacji została wykonana przy pomocy QT OpenGL 
+\item mapę opisuje plik XML w 2 wersjach pseudograficznej i czysto xmlowej
+\item tory tworzą segmenty
+\item wyświetlana jest odpowiednia sygnalizacja dla pociagów
+\item można cofać symulację do początku
+\item można wyznaczyć odlegość między stacjami
+\item mapa może dowolnie duża, jest możliwość przesuwania ekranu, jeśli mapa nie mieści się na jednym ekranie
+\end{frame}
+\end{itemize}
+\subsection{Obserwator}
+\begin{enumerate}
+\begin{frame}
+\frametitle{Obserwator}
+\item Jako obserwator chciałbym :
+\begin{itemize}
+\color{green}
+\item a) aby program informował o zablokowaniu się ruchu we wszystkich kierunkach na skrzyżowaniu (możliwe jest wczytanie mapy doprowadzającej do takiej sytuacji) (may have)
+\item e) mieć możliwość przyspieszania i zwalniania symulacji (should have)
+\item j) aby przy każdym skrzyżowaniu można było sprawdzić stan wszystkich sygnalizacji (needs to have)
+\item l) pociągi powinny być sterowane w sposób zapobiegający kolizjom (must have)
+\item m) aby symulacja była przedstawiona w czytelnej, ładnej oprawie graficznej (should have)
+\item n) aby była możliwość odtworzenia symulacji na podstawie zapisanego pliku (must have)
+\end{itemize}
+\end{frame}
+\subsection{Projektant}
+\begin{frame}
+\frametitle{Projektant}
+\item Jako projektant torów chciałbym :
+\begin{itemize}
+\color{green}
+\item c) mieć możliwość kreowania otoczenia przez bardzo uproszczone elementy, takie jak przeszkody na mapie (may have)
+\item d) mieć możliwość ustalenia dowolnej odległości między stacjami (niezależnie od reprezentacji graficznej trasy) (must have)
+\end{itemize}
+\end{frame}
+\subsection{Logistyk}
+\begin{frame}
+\frametitle{Logistyk}
+\item Jako logistyk chciałbym
+\begin{itemize}
+\color{green}
+\item a) znać odległości pomiędzy poszczególnymi stacjami (must have)
+\item g) móc przypisać pociągowi trasę specyfikując punkty (stacje) przez które ma on przejechać (must have)
+\end{itemize}
+\end{frame}
+\end{enumerate}
+\section{Bonusy}
+\begin{frame}
+Rzeczy zrealizowane ponadwymiarowo:
+\begin{itemize}
+\item pociąg dostosowuje prędkość do pociągu jadącego przed nim
+\item pociąg stopniowo zwiększa swoją prędkość
+\item pociąg zwalnia podczas dojeżdżania do stacji lub skrzyżowania
+\end{itemize}
+\end{frame}
+\end{document}
+
+

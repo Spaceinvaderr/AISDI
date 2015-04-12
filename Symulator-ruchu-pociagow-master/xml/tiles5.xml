@@ -1,0 +1,48 @@
+<engine>
+	<junctions>
+
+	</junctions>
+	<tracks>
+
+	</tracks>
+	<tiles>
+		<tile xPos="0" yPos="0" tileNo="23"></tile>
+		<tile xPos="0" yPos="1" tileNo="19"></tile>
+		<tile xPos="0" yPos="2" tileNo="19"></tile>
+		<tile xPos="0" yPos="3" tileNo="19"></tile>
+		<tile xPos="0" yPos="4" tileNo="19"></tile>
+		<tile xPos="0" yPos="5" tileNo="19"></tile>
+		<tile xPos="0" yPos="6" tileNo="19"></tile>
+		<tile xPos="0" yPos="7" tileNo="21"></tile>
+		<tile xPos="1" yPos="7" tileNo="20"></tile>
+		<tile xPos="2" yPos="7" tileNo="20"></tile>
+		<tile xPos="3" yPos="7" tileNo="20"></tile>
+		<tile xPos="4" yPos="7" tileNo="18"></tile>
+		<tile xPos="5" yPos="7" tileNo="20"></tile>
+		<tile xPos="6" yPos="7" tileNo="20"></tile>
+		<tile xPos="7" yPos="7" tileNo="22"></tile>
+		<tile xPos="7" yPos="6" tileNo="19"></tile>
+		<tile xPos="7" yPos="5" tileNo="19"></tile>
+		<tile xPos="7" yPos="4" tileNo="19"></tile>
+		<tile xPos="7" yPos="3" tileNo="19"></tile>
+		<tile xPos="7" yPos="2" tileNo="19"></tile>
+		<tile xPos="7" yPos="1" tileNo="19"></tile>
+		<tile xPos="7" yPos="0" tileNo="24"></tile>
+		<tile xPos="6" yPos="0" tileNo="20"></tile>
+		<tile xPos="5" yPos="0" tileNo="20"></tile>
+		<tile xPos="4" yPos="0" tileNo="18"></tile>
+		<tile xPos="3" yPos="0" tileNo="20"></tile>
+		<tile xPos="2" yPos="0" tileNo="20"></tile>
+		<tile xPos="1" yPos="0" tileNo="20"></tile>
+		
+		
+	</tiles>
+	<trains>
+		<train length="10" maxspeed="2">
+            <station x="4" y="0"></station>
+            <station x="4" y="7" time="120" ></station>
+			<station x="4" y="0"></station>
+        </train>
+	</trains>
+	<iteration state="5"></iteration>	
+</engine>
